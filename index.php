@@ -12,16 +12,20 @@
 </head>
 <body>
     <header>
-        <h1>Générateur de Mots de passes</h1>
+        
     </header>
-    <section>
+    <section class="generateur">
+        <h1>Générateur de Mots de passes</h1>
         <form action='' method="POST">
             <input type="text" name="addWord" placeholder="Rajouter un mot à mon Mdp">
-            <input class="bouton" type='submit' value='Générer mot de passe'>
+            <input class="bouton" type='submit' value="Generer Mot de passe">
             <p>
+                Votre mot de passe est :
+            </p>
+            <p class="mdp">
             <?php
                 $nom= $_POST;
-                echo "Votre mot de passe est : ".implode("','",$nom) .GeneratePassword(15);
+                echo "".implode("",$nom) .GeneratePassword(15);       
             ?>
             </p>
         </form>

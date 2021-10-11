@@ -3,16 +3,30 @@ body{
     color: white;
     font-size: large;
 }
+.generateur{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 30px;
+    padding: 2rem;
+    width: 40rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 h1{
     margin-top: 2rem;
     text-align: center;
-    color: white;
+    color:white ;
 }
 form{
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,11 +51,16 @@ input{
     height: 3.5rem;
     transition: 1s;
     color: black;
-    background-color: rgba(235, 108, 35, 0.589);
+    background-color: rgba(255, 115, 34, 0.486);
     border:2px solid black;
     border-radius: 30px;
 }
 p{
-    background-color: tomato;
     margin: auto;
+    margin-bottom: 10px;
+}
+.mdp{
+    background-color: rgba(250, 119, 58, 0.863);
+    margin: auto;
+    margin-bottom: 10px;
 }
