@@ -1,7 +1,11 @@
+*{
+    margin: 0px;
+}
 body{
     background-image: url(/img/bg-2.jpg);
     color: white;
     font-size: large;
+    font-family: 'Bebas Neue', cursive;
 }
 .generateur{
     display: flex;
@@ -12,7 +16,7 @@ body{
     border-radius: 30px;
     padding: 2rem;
     width: 40rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -20,7 +24,7 @@ body{
 h1{
     margin-top: 2rem;
     text-align: center;
-    color:white ;
+    color:rgb(255, 147, 75) ;
 }
 form{
     display: flex;
@@ -31,6 +35,7 @@ form{
     margin-right: auto;
 }
 input{
+    font-family: 'Bebas Neue', cursive;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -48,6 +53,7 @@ input{
     border-radius: 30px;
 }
 .bouton:hover{
+    cursor: pointer;
     height: 3.5rem;
     transition: 1s;
     color: black;
@@ -63,4 +69,26 @@ p{
     background-color: rgba(250, 119, 58, 0.863);
     margin: auto;
     margin-bottom: 10px;
+    width: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.btn-copy{
+    font-family: 'Bebas Neue', cursive;
+    font-size: medium;
+    width: auto;
+    height: auto;
+    color: tomato;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.btn-copy:hover{
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
 }
