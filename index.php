@@ -22,7 +22,7 @@
         <form action='' method="POST">
             <input type="text" name="addWord" placeholder="Rajouter un mot à mon mot de passe">
             <input class="bouton" type='submit' value="Generer Mot de passe">
-            <p>
+            <p class="yourpwd">
                 Votre mot de passe est :
             </p> 
         </form>
@@ -34,7 +34,7 @@
             ?>
             </p>
             <button class="btn-copy">
-                Copier mot de passe
+                > Copier mot de passe <
             </button>
         </div>
     </section>
